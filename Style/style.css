@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    color: white;
+    
+    
+}
+
+
+
+/* Regular */
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./Fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Regular */
+@font-face {
+    font-family: 'PPMori';
+    src: url('./Fonts/PPMori-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Medium */
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./Fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+/* SemiBold */
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./Fonts/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  /* SemiBold */
+@font-face {
+    font-family: 'PPMori';
+    src: url('./Fonts/PPMori-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  /* Bold */
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./Fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /* ExtraBold */
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('./Fonts/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    background-color: #0F0D0D;
+}
+
+.page1{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.nav{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    
+}
+
+.nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+.nav h4{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav h4:nth-child(1){
+    border-bottom: 1.5px solid #fff;
+}
+
+.page1 h1,
+.page1 h2 {
+    margin: 0; /* Reset all margins */
+}
+
+ .page1 h1{
+    font-size: 8vw;
+    font-family: PPMori;
+    font-weight: 400;
+    margin-top: 12vw;
+    margin-left: 6vw;
+}
+
+.page1 h2{
+    font-size: 8vw;
+    font-family: PPMori;
+    font-weight: 400;
+    margin-left: 26vw;
+}
+
+.page1 h1, .page1 h2{
+    line-height: 1.1; /* Adjust as needed */
+}
+
+.page1 video{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10vw;
+}
