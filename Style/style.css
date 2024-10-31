@@ -142,6 +142,8 @@ html, body{
 
 .page1 video{
     width: 80%;
-    margin-left: 10%;
+    position: relative;
+    left: 50%;
     margin-top: 10vw;
+    transform: translate(-50%, 0);
 }

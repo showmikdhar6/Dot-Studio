@@ -48,3 +48,6 @@ tl.to(".page1 h2",{
     x:100
 },"anim")
 
+tl.to(".page1 video", {
+  width: "90%"
+}, "anim")
