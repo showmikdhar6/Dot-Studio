@@ -238,6 +238,8 @@ width: 38%;
     position: relative;
     padding-top: 80px;
     z-index: 9;
+    border-bottom: 2px solid #111;
+    padding-bottom: 80px;
 }
 
 
@@ -295,6 +297,59 @@ width: 38%;
     width: 100%;
     position: relative;
     z-index: 9;
+    padding: 180px 100px;
+}
+
+
+
+.elem{
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text-div{
+    /* background-color: lightblue; */
+    height: 160px;
+    overflow: hidden;
+}
+
+
+.elem h1{
+    font-size: 7.0vw;
+    line-height: 1.3;
+    transition: all ease-out 0.5s;
+
+}
+
+.elem img{
+    position: absolute;
+    opacity: 0;
+    transition: all ease-out 0.5s;
+    transform: translateY(15%) rotate(5deg);
+
+
+}
+
+.elem img:nth-child(1){
+    left: 2%;
+}
+
+.elem img:nth-child(3){
+    right: 10%;
+}
+
+.elem:hover h1{
+transform: translateY(-100%);
+color:rgb(3, 155, 155);
+}
+
+.elem:hover img{
+    opacity: 1;
+    transform: translateY(0%) rotate(0deg);
+
 }
 
 .page5{
