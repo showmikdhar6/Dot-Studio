@@ -28,6 +28,15 @@ ScrollTrigger.refresh();
 
 init()
 
+var crsr = document.querySelector(".cursor")
+var main = document.querySelector(".main")
+main.addEventListener("mousemove",function(dets){
+    crsr.style.left = dets.x+"px"
+    crsr.style.top = dets.y+"px"
+
+})
+
+
 var tl = gsap.timeline({
     scrollTrigger:{
         trigger:".page1 h1",
@@ -51,3 +60,19 @@ tl.to(".page1 h2",{
 tl.to(".page1 video", {
   width: "90%"
 }, "anim")
+
+var tl2 = gsap.timeline({
+  scrollTrigger:{
+      trigger:".page1 h1",
+      scroller: ".main",
+      markers: true,
+      start:"top -115%",
+      end:"top -120%",
+      scrub:3
+  }
+})
+
+tl2.to(".main",{
+  backgroundColor: "#fff"
+})
+
