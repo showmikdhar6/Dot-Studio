@@ -74,6 +74,19 @@ html, body{
     width: 100%;
 }
 
+.teal{
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-color: rgb(3, 155, 155);
+    z-index: 100;
+    opacity: 0;
+    display: none;
+    transition: opacity ease 15s;
+
+
+}
 
 .cursor{
     height: 20px;
@@ -82,12 +95,16 @@ html, body{
     position: fixed;
     background-color:rgb(3, 155, 155);
     z-index: 8;
+    transition: background-image ease 0.5s;
+    background-position: center;
+    background-size: cover;
     mix-blend-mode: difference;
 
 }
 
 .main{
     background-color: #0F0D0D;
+    cursor: none;
 }
 
 .page1{
@@ -95,7 +112,11 @@ html, body{
     width: 100%;
     position: relative;
     z-index: 9;
+    padding-top: 12vw;
+
 }
+
+
 
 .nav{
     height: 55px;
@@ -104,6 +125,10 @@ html, body{
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
+    position: fixed;
+    mix-blend-mode: difference;
+    z-index: 102;
+    /* cursor: none; */
     
 }
 
@@ -124,6 +149,7 @@ html, body{
     font-size: 0.9rem;
     text-transform: uppercase;
     font-weight: 600;
+    
 }
 
 .nav h4:nth-child(1){
@@ -139,7 +165,7 @@ html, body{
     font-size: 8vw;
     font-family: PPMori;
     font-weight: 400;
-    margin-top: 12vw;
+
     margin-left: 6vw;
 }
 
@@ -375,6 +401,7 @@ color:rgb(3, 155, 155);
     position: relative;
     z-index: 9;
     padding: 120px 100px;
+    margin-bottom: 140px;
 }
 
 .page5 h2{
@@ -392,7 +419,7 @@ color:rgb(3, 155, 155);
 }
 
 footer{
-    height: 90vh;
+    height: 75vh;
     width: 100%;
     background-color: rgb(3, 155, 155);
     padding: 140px 100px;
