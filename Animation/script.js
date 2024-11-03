@@ -91,3 +91,17 @@ var tl3 = gsap.timeline({
 tl3.to(".main",{
   backgroundColor: "#0F0D0D"
 })
+
+
+var boxes = document.querySelectorAll(".box")
+boxes.forEach(function(elem){
+  elem.addEventListener("mouseenter", function(){
+   var att = elem.getAttribute("data-image")
+   console.log(att)
+  })
+
+  elem.addEventListener("mouseleave", function(){
+    elem.style.backgroundColor = "transparent"
+  })
+
+})
