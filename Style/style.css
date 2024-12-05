@@ -418,13 +418,6 @@ color:rgb(3, 155, 155);
     color:rgb(3, 155, 155);
 }
 
-footer{
-    height: 75vh;
-    width: 100%;
-    background-color: rgb(3, 155, 155);
-    padding: 140px 100px;
-}
-
 .box{
     /* background-color: red; */
     display: flex;
@@ -446,4 +439,160 @@ footer{
 .text-div-2{
     display: flex;
     gap: 150px;
+}
+
+.footer-container {
+    margin: 0 100px;
+    padding: 50px 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    height: 75vh;
+    width: 100%;
+    background-color: rgb(3, 155, 155);
+    padding: 120px 80px;
+}
+.row-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 100px 0px;
+    border-bottom: #000 1px solid;
+    /* position: relative; */
+}
+
+.row-top h2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-line {
+    font-size: 30px;
+}
+.outer-line {
+    font-size: 27px;
+}
+
+.circle-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: black; 
+    border-radius: 50%;
+}
+
+.circle-btn .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.circle-btn .btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.row-bottom {
+    padding: 80px 10px 60px 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.col {
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent ;
+}
+
+form button {
+    background-color: transparent;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+.email {
+    display: block;
+    margin-bottom: 1rem;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.info p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 0.3rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #555;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: #444;
 }
