@@ -289,6 +289,13 @@ width: 38%;
     margin-left: 100px;
 }
 
+.page3-part-1-img figcaption {
+    margin-left: 100px;
+    padding-top: 20px;
+    font-size: larger;
+    color: #000;
+}
+
 .page3-part-1 video{
     height: 400px;
     width: 700px;
@@ -296,7 +303,12 @@ width: 38%;
     margin-top: 50px;
 
 }
-
+.page3-part-1-video figcaption {
+    margin-right: 5vw;
+    padding-top: 20px;
+    font-size: larger;
+    color: #000;
+}
 
 .page3-part-2{
     display: flex;
@@ -311,11 +323,23 @@ width: 38%;
     margin-right: 5vw;
 }
 
+.page3-part-2-img figcaption {
+    margin-right: 5vw;
+    padding-top: 20px;
+    font-size: larger;
+}
+
 .page3-part-2 video{
     height: 400px;
     width: 700px;
     margin-left: 100px;
     margin-top: 160px;
+}
+
+.page3-part-2-video figcaption{
+    margin-left: 100px;
+    padding-top: 20px;
+    font-size: larger;
 }
 
 .page4{
