@@ -319,11 +319,11 @@ width: 38%;
 }
 
 .page4{
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     position: relative;
     z-index: 9;
-    padding: 140px 100px;
+    padding: 100px 100px;
     border-bottom: 2px solid #fff;
 }
 
@@ -332,15 +332,18 @@ width: 38%;
     margin-left: 659px;
 }
 .page4 p{
-    font-size: 0.8vw;
-    width: 200px;
-    align-items: center;
+    font-size: 1vw;
+    width: 300px;
+    text-align: center;
+    /* align-items: center; */
     margin-left: auto;
     margin-right: auto;
+    margin-bottom:5px;
+
 }
 
 .design-div{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .elem{
@@ -401,7 +404,7 @@ color:rgb(3, 155, 155);
     position: relative;
     z-index: 9;
     padding: 120px 100px;
-    margin-bottom: 140px;
+    /* margin-bottom: 140px; */
 }
 
 .page5 h2{
@@ -416,13 +419,6 @@ color:rgb(3, 155, 155);
     text-transform: uppercase;
     font-weight: 400;
     color:rgb(3, 155, 155);
-}
-
-footer{
-    height: 75vh;
-    width: 100%;
-    background-color: rgb(3, 155, 155);
-    padding: 140px 100px;
 }
 
 .box{
@@ -446,4 +442,187 @@ footer{
 .text-div-2{
     display: flex;
     gap: 150px;
+}
+
+
+footer {
+
+    /* min-height: 100vh; */
+    /* width: 100%; */
+    /* position: relative; */
+    /* z-index: 9; */
+    margin-bottom: 250px;
+    padding: 120px 100px;
+    background-color: rgb(3, 155, 155);
+}
+
+
+.row-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 100px 0px;
+    border-bottom: #000 1px solid;
+    /* position: relative; */
+}
+
+.row-top h2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+
+}
+.inner-line {
+    font-size: 3.1rem;
+}
+.outer-line {
+    font-size: 3.1rem;
+}
+
+.circle-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: black; 
+    border-radius: 50%;
+}
+
+.circle-btn .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.circle-btn .btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.row-bottom {
+    padding: 100px 10px 100px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.col {
+    /* width: 500px; */
+    padding-bottom: 10px;
+    border-bottom: #000 1px solid;
+}
+
+.col2{
+    /* width: 300px; */
+    padding-bottom: 10px;
+} 
+
+
+
+
+h6 {
+    font-size: 2.0rem;
+    font-weight:500;
+    margin-bottom: 2rem;
+    align-items: start;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* gap: 0.5rem; */
+    
+}
+
+form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent ;
+
+}
+
+form ::placeholder {
+    color: #FFF;
+    font-weight: 300;
+}
+
+
+form button {
+    background-color: transparent;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+.email {
+    display: block;
+    margin-bottom: 3rem;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 2.0rem;
+    font-weight:500;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.info p {
+    font-weight:500;
+    font-size: 1.5rem;
+    
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 0.3rem;
+    font-weight:300;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #555;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    color: #FFF;
+    font-weight: 300;
+    align-items: flex-start;
+
 }
