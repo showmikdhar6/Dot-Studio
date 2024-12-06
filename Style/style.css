@@ -441,18 +441,16 @@ color:rgb(3, 155, 155);
     gap: 150px;
 }
 
-.footer-container {
-    margin: 0 100px;
-    padding: 50px 100px;
-    justify-content: center;
-    text-align: center;
-}
+
 
 footer {
-    height: 75vh;
+    min-height: 100vh;
     width: 100%;
+    position: relative;
+    z-index: 9;
+    padding: 120px 100px;
+    margin-bottom: 140px;
     background-color: rgb(3, 155, 155);
-    padding: 120px 80px;
 }
 .row-top {
     display: flex;
@@ -595,4 +593,5 @@ ul li a:hover {
 .copyright {
     font-size: 0.8rem;
     color: #444;
+    text-align: center;
 }
