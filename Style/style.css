@@ -292,9 +292,11 @@ width: 38%;
 .page3-part-1-img figcaption {
     margin-left: 100px;
     padding-top: 20px;
-    font-size: larger;
+    font-size: 1.2rem;
+    font-weight: 500;
     color: #000;
 }
+
 
 .page3-part-1 video{
     height: 400px;
@@ -306,7 +308,8 @@ width: 38%;
 .page3-part-1-video figcaption {
     margin-right: 5vw;
     padding-top: 20px;
-    font-size: larger;
+    font-size: 1.2rem;
+    font-weight: 500;
     color: #000;
 }
 
@@ -326,7 +329,8 @@ width: 38%;
 .page3-part-2-img figcaption {
     margin-right: 5vw;
     padding-top: 20px;
-    font-size: larger;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .page3-part-2 video{
@@ -339,7 +343,12 @@ width: 38%;
 .page3-part-2-video figcaption{
     margin-left: 100px;
     padding-top: 20px;
-    font-size: larger;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.fig-p{
+    font-size: 0.6rem;
 }
 
 .page4{
@@ -356,7 +365,7 @@ width: 38%;
     margin-left: 659px;
 }
 .page4 p{
-    font-size: 1vw;
+    font-size: 1.3rem;
     width: 300px;
     text-align: center;
     /* align-items: center; */
@@ -381,7 +390,7 @@ width: 38%;
 
 .text-div{
     /* background-color: lightblue; */
-    height: 160px;
+    height: 180px;
     overflow: hidden;
 }
 
@@ -423,12 +432,12 @@ color:rgb(3, 155, 155);
 }
 
 .page5{
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     position: relative;
     z-index: 9;
-    padding: 120px 100px;
-    /* margin-bottom: 140px; */
+    padding: 140px 100px;
+    margin-bottom: 140px;
 }
 
 .page5 h2{
@@ -494,12 +503,16 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+
 .inner-line {
-    font-size: 30px;
+    font-size: 3.1rem;
 }
 .outer-line {
-    font-size: 27px;
+    font-size: 3.1rem;
 }
+
+
 
 .circle-btn {
     display: flex;
@@ -539,9 +552,24 @@ footer {
 }
 
 .col {
-    width: 300px;
+    width: 500px;
     padding-bottom: 10px;
+    border-bottom: #000 1px solid;
 }
+
+.col2{
+    /* width: 300px; */
+    padding-bottom: 10px;
+} 
+
+h6 {
+    font-size: 2.0rem;
+    font-weight:500;
+    margin-bottom: 2rem;
+    align-items: start;
+}
+
+
 
 h3 {
     font-size: 1.2rem;
@@ -550,7 +578,7 @@ h3 {
 
 form {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
     
@@ -562,6 +590,12 @@ form input {
     border: none;
     background-color: transparent ;
 }
+
+form ::placeholder {
+    color: #FFF;
+    font-weight: 300;
+}
+
 
 form button {
     background-color: transparent;
@@ -578,11 +612,13 @@ form button:hover {
 
 .email {
     display: block;
-    margin-bottom: 1rem;
-    color: #000;
+    margin-bottom: 3rem;
+    color: #FFF;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 2.0rem;
+    font-weight:500;
 }
+
 
 .email:hover {
     text-decoration: underline;
@@ -595,7 +631,8 @@ form button:hover {
 }
 
 .info p {
-    font-weight: bold;
+    font-weight:500;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -605,20 +642,25 @@ ul {
 
 ul li {
     margin-bottom: 0.3rem;
+    font-weight:300;
 }
 
 ul li a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    font-weight: 300;
     transition: color 0.3s ease;
 }
+
 
 ul li a:hover {
     color: #555;
 }
 
 .copyright {
-    font-size: 0.8rem;
-    color: #444;
-    text-align: center;
+    font-size: 0.9rem;
+    color: #FFF;
+    font-weight: 300;
+    align-items: flex-start;
+
 }
