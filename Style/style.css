@@ -128,7 +128,6 @@ html, body{
     position: fixed;
     mix-blend-mode: difference;
     z-index: 102;
-
     /* cursor: none; */
     
 }
