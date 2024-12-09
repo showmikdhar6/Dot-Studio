@@ -121,18 +121,3 @@ boxes.forEach(function(elem){
   })
 
 })
-
-// var h4 = document.querySelectorAll(".nav h4")
-// var teal = document.querySelector(".teal")
-// h4.forEach(function(elem){
-//   elem.addEventListener("mouseenter", function(){
-//     teal.style.display = "block"
-//     teal.style.opacity = "1"
-//   })
-
-//   elem.addEventListener("mouseleave", function(){
-//     teal.style.display = "none"
-//     teal.style.opacity = "0"
-//   })
-
-// })
